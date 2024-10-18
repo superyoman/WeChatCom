@@ -1,0 +1,12 @@
+.*
+!.gitignore
+!.github/
+
+*pyc
+__pycache__
+
+logs/
+*.log
+*.log.*
+
+config.yaml

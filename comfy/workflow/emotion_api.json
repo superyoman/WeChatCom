@@ -1,0 +1,67 @@
+{
+  "14": {
+    "inputs": {
+      "rotate_pitch": #head_up_down#,
+      "rotate_yaw":  #head_left_right_rotate#,
+      "rotate_roll": #head_tilt#,
+      "blink": #eye_open#,
+      "eyebrow": #eyebrow_open#,
+      "wink": 0,
+      "pupil_x": #eyeballs_up_down#,
+      "pupil_y": #eyeballs_left_right#,
+      "aaa": #mouth_up_down#,
+      "eee": #mouth_left_right#,
+      "woo": 0,
+      "smile": #smile#,
+      "src_ratio": 0.1,
+      "sample_ratio": 1,
+      "sample_parts": "All",
+      "crop_factor": 1.7000000000000002,
+      "src_image": [
+        "15",
+        0
+      ]
+    },
+    "class_type": "ExpressionEditor",
+    "_meta": {
+      "title": "Expression Editor (PHM)"
+    }
+  },
+  "15": {
+    "inputs": {
+      "image": "#source_image#",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "34": {
+    "inputs": {
+      "output_path": "",
+      "filename_prefix": "#output_image#",
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "filename_number_start": "false",
+      "extension": "png",
+      "dpi": 300,
+      "quality": 100,
+      "optimize_image": "true",
+      "lossless_webp": "false",
+      "overwrite_mode": "false",
+      "show_history": "false",
+      "show_history_by_prefix": "false",
+      "embed_workflow": "false",
+      "show_previews": "false",
+      "images": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  }
+}
