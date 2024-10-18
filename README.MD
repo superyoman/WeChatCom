@@ -2,6 +2,8 @@
 本项目基于 WeChatRobot (https://github.com/lich0821/WeChatRobot) 修改，旨在提供Comfyui图生图工作流应用套壳服务。
 
 **声明:** 此项目不对使用者微信账号风控负责，请自行考量！
+## Demo
+https://github.com/user-attachments/assets/6f83ed22-1345-4094-8c22-a42466465863
 
 ## Quick Start
 0. 本项目已删除原项目（WeChatRobot）包括ChatGLM等在线ai功能，无需安装kernel。步骤1-6可参考原项目安装指南。
