@@ -66,7 +66,7 @@ groups:
 {
   "config": {
   "comfyui_port": 8818,
-  "comfyui_dir": "your comfyui fordler"
+  "comfyui_dir": "your comfyui folder"
       }
 }
 ```
